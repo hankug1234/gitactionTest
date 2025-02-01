@@ -2,8 +2,8 @@ name: Commit Stage
 on: push
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: polarbookshop/catalog-service
+  REGISTRY: docker.io
+  IMAGE_NAME: hankug/cloudtest
   VERSION: latest
 
 jobs:
